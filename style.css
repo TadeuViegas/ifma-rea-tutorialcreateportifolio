@@ -1,0 +1,10 @@
+:root{
+/* cores e fontes do site ifma */
+--cor-principal: #034811;
+--cor-secundaria: #FFFFFF;
+/* radial-gradient(ellipse at center,#19882c 1%,#025310 100%) */
+}
+
+html, body{
+  font-family: OpenSans,sans-serif;
+}
