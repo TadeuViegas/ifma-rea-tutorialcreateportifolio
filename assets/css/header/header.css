@@ -1,0 +1,51 @@
+.header {
+  color: var(--cor-secundaria);
+  background-image: radial-gradient(
+    ellipse at center,
+    #19882c 1%,
+    #025310 100%
+  );
+  font-family: open sans;
+}
+
+.cabecalho {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.cabecalho img {
+  height: 40px;
+}
+
+.subtitle {
+  font-size: 10px;
+}
+
+#title_cabecalho {
+  font: normal 20px/20px open sans, arial;
+  font-weight: 700;
+}
+
+.navbar{
+  background-color: var(--cor-navbar);
+  height: 15px;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li a{
+  display:flex;
+  line-height: 14px;
+  text-decoration: none;
+  margin-right: 10px;
+  color: var(--cor-secundaria);
+  font-size: 8px;
+}
+
+.navbar ul li a:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+:root{
+/* palheta de cores site ifma */
+--cor-principal: #034811;
+--cor-secundaria: #FFFFFF;
+--cor-navbar: #084312;
+
+/* fundo do cabecalho */
+/* background-image: radial-gradient(ellipse at center,#19882c 1%,#025310 100%); */
+}
