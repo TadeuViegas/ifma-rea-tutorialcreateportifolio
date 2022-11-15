@@ -20,17 +20,17 @@
 }
 
 .subtitle {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 #title_cabecalho {
-  font: normal 20px/20px open sans, arial;
+  font: normal 40px/40px open sans, arial;
   font-weight: 700;
 }
 
 .navbar{
   background-color: var(--cor-navbar);
-  height: 15px;
+  height: 25px;
 }
 .navbar ul{
   display: flex;
@@ -39,13 +39,25 @@
 
 .navbar ul li a{
   display:flex;
-  line-height: 14px;
+  line-height: 25px;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 30px;
   color: var(--cor-secundaria);
-  font-size: 8px;
+  font-size: 13px;
 }
 
 .navbar ul li a:hover{
   text-decoration: underline;
+}
+
+.main{
+  width: 70%;
+  margin: auto;
+  font: normal 16px Open sans;
+}
+
+.footer{
+  width: 70%;
+  margin: auto;
+  font: normal 16px Open sans;
 }
