@@ -16,6 +16,8 @@ TODO: deploy
 Um recurso educacional é todo e qualquer material ou tecnologia ultizada em um processo de ensino, visando incetivar e aproximar o aluno do conteúdo. <br>
 O projeto é open source e atende as especificações de um REA, assim poderá ser melhorado e receber novas features de outros usuários.
 
-## 🔗 Licença
-Este trabalho está licenciado sob a Licença Creative Commons Atribuição-CompartilhaIgual 3.0 Não Adaptada. Para ver uma cópia desta licença, visite em:
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+## 🔗 Licença <br>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+<img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+<br />
+Este obra está licenciada com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Atribuição-NãoComercial 4.0 Internacional</a>. <br>
