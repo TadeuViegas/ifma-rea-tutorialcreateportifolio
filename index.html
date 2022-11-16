@@ -15,6 +15,8 @@
 
     <!-- css do header -->
     <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/commons.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
     
     <!-- css da seção 1 -->
   </head>
@@ -30,56 +32,60 @@
 
       <nav class="navbar">
         <ul>
-          <li><a href="#motivação">motivação</a></li>
-          <li><a href="#sobre">sobre</a></li>
           <li><a href="#tecnologias">tecnologias</a></li>
-          <li><a href="#contato">contato</a></li>
+          <li><a href="#sobre">sobre</a></li>
+          <li><a href="#desenvolvido">desenvolvido</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="main">
       <!-- secao 1: motivacao -->
-      <section class="section_1">
-        <h1>Motivação</h1>
+      <section id="motivacao" class="section_1">
+        <h1 class="title hightlight-center">Motivação</h1>
         <p>Aqui você vai aprender a forma mais rádipa e simplificada de construir seu portifólio ou blog pessoal! Para fins de divulgação seu perfil, mostrar seus projetos e trabalhos, preencher formulários de empresas, etc.</p>
         <p>O melhor de tudo é que você não precisar ser um expert em tecnologia e programação! Vamos te passar o conhecimento básico para desenvolver sua primeira página web e colocá-la no ar para qualquer pessoa acessar e ver quem é você, o que faz e seus resultados em projetos e trabalhos realizados por você ou por um time!</p>
       </section>
 
       <!-- secao 2: tecnologias -->
-      <section class="section-2">
-        <h1>Tecnologias</h1>
+      <section id="tecnologias" class="section_2">
+        <h1 class="title">Tecnologias</h1>
         <p>Para construir sua primeira página web vamos precisar de algumas tecnologias que são super faceis de aprender e usar, com um conhecimento básico você pode dar os primeiros passos e com um pouco mais de estudo poderá fazer muito mais e criar um portifólio incrível!</p>
 
-        <h2>VS Code</h2>
+        <h2 class="sub-title"><img class="small-icon" src="assets/img/vscode.svg"/>VS Code</h2>
         <p>A primeira delas é o VS Code ou Visual Studio Code, é um editor de código 100% gratuito para desenvolvermos a aplicação web, o VS Code é multiplataforma, podendo ser utilizado a partir do Windows, Mac ou Linux.</p> Segue o link para instalação: <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a>
         <p>Se quiser se aprofundar mais leia o artigo: <a href="https://www.devmedia.com.br/introducao-ao-visual-studio-code/34418">https://www.devmedia.com.br/introducao-ao-visual-studio-code/34418</a></p>
 
-        <h2>HTML</h2>
+        <h2 class="sub-title"><img class="small-icon" src="assets/img/html.svg"/>HTML</h2>
         <p>HyperText Markup Language (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
         <p>Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas.</p>
 
-        <h2>CSS</h2>
+        <h2 class="sub-title"><img class="small-icon" src="assets/img/css.svg"/>CSS</h2>
         <p>Cascading Style Sheets (Folhas de estilo em cascata) é uma linguagem de marcação responsável pelo visual das suas páginas da web. Ele controla as cores, fontes e layouts dos elementos do seu site. Esta linguagem de estilo também permite que você adicione efeitos ou animações para o seu site.</p>
       </section>
 
       <!-- secao 3: sobre -->
-      <section class="section_3">
-      <h1>Sobre</h1>
-      <p>Este é um projeto para fins educacionais, desenvolvido por alunos do IFMA na cadeira de informatica na educação ministrada pela professora Salete Farias. Atendendo as requisitos de um REA (Recurso Educacional Aberto) que pode ser definido como materiais de ensino, aprendizado e pesquisa em qualquer suporte ou mídia, que estão sob domínio público, ou estão licenciados de maneira aberta, permitindo que sejam utilizados ou adaptados por terceiros. O uso de formatos técnicos abertos facilita o acesso e o reuso potencial dos recursos publicados digitalmente. Recursos Educacionais Abertos podem incluir cursos completos, partes de cursos, módulos, livros didáticos, artigos de pesquisa, vídeos, testes, software e qualquer outra ferramenta, material ou técnica que possa apoiar o acesso ao conhecimento.</p>
+      <section id="sobre" class="section_3">
+        <h1 class="title">Sobre</h1>
+        <p>Este é um projeto para fins educacionais, desenvolvido por alunos do IFMA na cadeira de informatica na educação ministrada pela professora Salete Farias. Atendendo as requisitos de um REA (Recurso Educacional Aberto) que pode ser definido como materiais de ensino, aprendizado e pesquisa em qualquer suporte ou mídia, que estão sob domínio público, ou estão licenciados de maneira aberta, permitindo que sejam utilizados ou adaptados por terceiros. O uso de formatos técnicos abertos facilita o acesso e o reuso potencial dos recursos publicados digitalmente. Recursos Educacionais Abertos podem incluir cursos completos, partes de cursos, módulos, livros didáticos, artigos de pesquisa, vídeos, testes, software e qualquer outra ferramenta, material ou técnica que possa apoiar o acesso ao conhecimento.</p>
       </section>
 
-      <!-- secao 4: contato -->
+      <!-- secao 4: desenvolvido -->
+      <section id="desenvolvido" class="section_4">
+        <h1 class="title">Desenvolvido por/ responsáveis</h1>
+        <p>Estudantes de Sistemas de Informação - Informática na Educação</p>
+        <ul class="card-group">
+          <li class="card"><a href="https://github.com/TadeuViegas/" target="_blank"><img src="assets/img/tadeu-viegas.jpg"/><span>Tadeu Viegas</spna></li>
+          <li class="card"><a href="https://github.com/dannRocha/" target="_blank"><img src="assets/img/daniel-rocha.jpg"/><span>Daniel Rocha</spna></li>
+          <li class="card"><a href="https://github.com/TadeuViegas/" target="_blank"><img src="assets/img/renilson.jpg"/><span>Renilson Matias</spna></li>
+          <li class="card"><a href="https://github.com/viniiciusBsilva/" target="_blank"><img src="assets/img/viniiciusbsilva.jpg"/><span>Vinicius Barbosa</spna></li>
+        </ul>
+      </section>
     </main>
 
     <footer class="footer">
-      <img src="assets/img/logo-ifma.png" alt="">
-      <p>Site desenvolvido pelos alunos do Instituto Federal do Maranhão</p>
-      <p>Tadeu Viegas</p>
-      <p>Daniel Rocha</p>
-      <p>Renilson Matias</p>
-      <p>Vinicius Barbosa</p>
-      <p>&copy; 2022 IFMA. Todos os direitos reservados</p>
+      <img src="assets/img/logo-ifma-novo.png" alt="">
+      <span>&copy; 2022 IFMA. Todos os direitos reservados</span>
     </footer>
   </body>
 </html>
