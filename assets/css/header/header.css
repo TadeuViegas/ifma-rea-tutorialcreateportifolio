@@ -49,15 +49,3 @@
 .navbar ul li a:hover{
   text-decoration: underline;
 }
-
-.main{
-  width: 70%;
-  margin: auto;
-  font: normal 16px Open sans;
-}
-
-.footer{
-  width: 70%;
-  margin: auto;
-  font: normal 16px Open sans;
-}
