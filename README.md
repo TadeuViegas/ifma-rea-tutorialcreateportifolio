@@ -4,7 +4,7 @@
 Projeto que tem por objetivo ajudar a qualquer usuário, que tenha pouco ou nenhum conhecimento em programação, a criar seu próprio portifólio ou blog pessoal, a fim de usar em entrevistas, formulários, fazer divulgação, etc.
 
 ## 🔗 Confira em:  
-TODO: deploy
+https://tranquil-palmier-d1d550.netlify.app/
 
 ## 🛠️Tecnologias
 - VS Code
