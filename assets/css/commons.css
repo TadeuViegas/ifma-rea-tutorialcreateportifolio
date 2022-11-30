@@ -64,7 +64,7 @@ a:visited, a:link {
 .card-group {
   margin: 50px 0;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -103,4 +103,39 @@ a:visited, a:link {
 .footer img {
   width: 70px;
   margin-bottom: 10px;
+}
+
+/* celular */
+@media screen and (max-width: 600px) {
+  header p{
+    text-indent: 0px;
+  }
+  .cabecalho{
+    width: 100%;
+    padding: 15px;
+  }
+  .cabecalho img {
+    width: 100%;
+  }
+
+  .navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul li a{
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  #telavscode{
+    width: 275px;
+    height: 300px;
+  }
+
+  .video{
+    width: 275px;
+    height: 300px;
+  }
 }

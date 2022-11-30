@@ -31,7 +31,6 @@
 
 .navbar{
   background-color: var(--cor-navbar);
-  height: 25px;
 }
 .navbar ul{
   display: flex;
